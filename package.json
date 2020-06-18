@@ -1,0 +1,20 @@
+{
+  "name": "startpage",
+  "version": "1.0.0",
+  "main": "build/index.html",
+  "repository": "https://github.com/krosf/startpage.git",
+  "author": "Rodrigo Sanabria <rodrigosanabria22@gmail.com>",
+  "license": "MIT",
+  "source": "src/index.html",
+  "private": true,
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
